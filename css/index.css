@@ -71,6 +71,19 @@ p {
     margin: 0 auto;
 }
 
+nav{
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+ nav a{
+    color: black;
+     padding:35px;
+     text-decoration: none;
+ }
+ .header-img{
+     padding-bottom:25px;
+ }
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +123,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box:nth-child(1){
+    background:teal;
 }
 
 .bottom-content {
