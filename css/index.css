@@ -71,6 +71,19 @@ p {
     margin: 0 auto;
 }
 
+nav{
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+ nav a{
+    color: black;
+     padding:35px;
+     text-decoration: none;
+ }
+ .header-img{
+     padding-bottom:25px;
+ }
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +124,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:nth-child(1){
+    background:teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +186,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page CSS*/
+
+.about-text-container{
+    padding:20px;
+}
+.about-middle-content{
+
+    display: flex;
+    padding:10px;
+}
+.about-text h3{
+    padding-top:20px;
+    
+}
+hr{
+    border-top: 2px dotted;
+}
+.about-text hr{
+    width:370px;
+   
+}
+.button{
+    
+    padding:20px;
+}
+.about-text button{
+    padding:10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 3px solid black;
+    width:120px;
+    
+}
+.container-about-page {
+    width:800px;
+    margin:auto
+}
+.last-content{
+    padding:30px;
 }
